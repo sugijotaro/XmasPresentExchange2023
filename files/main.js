@@ -10,8 +10,8 @@ function showNameFromID() {
   const name = idToNameMapping[id];
 
   if (name) {
-    document.getElementById("ptrName").textContent = name + "さんです！！！";
+    document.getElementById("ptrName").textContent = name + "さんです！";
   } else {
-    document.getElementById("ptrName").textContent = "不明な値";
+    document.getElementById("ptrName").textContent = "不明な値さんです！";
   }
 }
